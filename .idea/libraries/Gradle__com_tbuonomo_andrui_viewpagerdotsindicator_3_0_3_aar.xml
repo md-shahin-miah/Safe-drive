@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25e52d8a77b68b8a164a14d82060b8cb/jetified-viewpagerdotsindicator-3.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25e52d8a77b68b8a164a14d82060b8cb/jetified-viewpagerdotsindicator-3.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25e52d8a77b68b8a164a14d82060b8cb/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo.andrui/viewpagerdotsindicator/3.0.3/1b500d80aa19932fec03365ca257a95617396e8/viewpagerdotsindicator-3.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo.andrui/viewpagerdotsindicator/3.0.3/7f4b9344802d0c2617ce713d82c6aee1fa89d52a/viewpagerdotsindicator-3.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

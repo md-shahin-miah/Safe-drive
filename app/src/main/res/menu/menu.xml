@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:id="@+id/profilemenu"
+        android:title="Profile"
+        >
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/submitcode"-->
+<!--        android:title="Submit subscription Code"-->
+<!--        >-->
+<!--    </item>-->
+    <item
+        android:id="@+id/signout"
+        android:title="Sign Out"
+        >
+    </item>
+
+
+
+
+</menu>
+

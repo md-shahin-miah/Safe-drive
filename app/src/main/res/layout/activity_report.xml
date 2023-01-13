@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reporter.ReportActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/orange_inactive"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="30dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:background="@color/orange_bg_light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="100dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/pendpronameID"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawablePadding="5dp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:lines="1"
+                                    android:padding="5dp"
+                                    android:text="Xihad"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="20sp" />
+
+
+                                <TextView
+                                    android:id="@+id/penproaddressId"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                                    android:drawablePadding="2dp"
+                                    android:fontFamily="@font/roboto"
+                                    android:lines="1"
+                                    android:text="sylhet bangladesh"
+                                    android:textSize="14sp" />
+                                <TextView
+                                    android:id="@+id/pendingphoneId"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawablePadding="2dp"
+                                    android:fontFamily="@font/roboto"
+                                    android:lines="1"
+                                    android:text="01742242243"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="@font/roboto"
+                                        android:text=" Demerit Point"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="20sp" />
+
+                                    <TextView
+                                        android:id="@+id/pendpropointId"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="5dp"
+                                        android:background="@drawable/bag_right"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:paddingLeft="40dp"
+                                        android:paddingTop="5dp"
+                                        android:paddingRight="40dp"
+                                        android:paddingBottom="5dp"
+                                        android:text="500"
+                                        android:textColor="@color/white"
+                                        android:textSize="22sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:padding="3dp"
+                                    android:text="  "
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/pendnidId"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto"
+                                    android:padding="3dp"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck1"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="General Fine - 20 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                >
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck2"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Using Hydraulic Horn - 10 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck3"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Disobey Police order - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                >
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck4"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Disobeying Red Signal - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck5"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Careless Driving - 30 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+
+                                android:id="@+id/ck6"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Accident Related Fine - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+
+                                android:id="@+id/ck7"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving without Safety - 30 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+
+                                android:id="@+id/ck8"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Black Smoke Emission - 20 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+
+                                android:id="@+id/ck9"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Overloading The Car - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+
+                                android:id="@+id/ck10"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving Without Insurance - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck11"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving Without Permission - 50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck12"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Blocking Road Or Public Place - 25 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck13"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Unauthorized Touch/Use Of Car - 25 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck14"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Lane Violation - 100 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck15"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving Without valid Registration - 70 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck16"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving Without Fitness - 25 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/ck17"
+                                android:fontFamily="@font/roboto"
+                                android:textSize="17sp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="5dp"
+
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Driving Without Route Permit -50 point"
+                                android:layoutDirection="rtl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.appcompat.widget.AppCompatCheckBox>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+                            <LinearLayout
+                                android:background="@color/orange_bg_light"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:padding="3dp"
+                                    android:text="Description"
+                                    android:textSize="20sp" />
+
+
+                                <EditText
+                                    android:id="@+id/descriptionIDDD"
+                                    android:gravity="start"
+                                    android:layout_margin="5dp"
+                                    android:background="@color/white"
+                                    android:layout_marginBottom="10dp"
+                                    android:padding="3dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+
+                                    >
+
+                                </EditText>
+
+                            </LinearLayout>
+
+
+                            <Button
+                                android:id="@+id/reportsubmitId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="40dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="40dp"
+                                android:background="@drawable/button_bg"
+                                android:padding="10dp"
+                                android:text="Submit"
+                                android:textColor="#fff"
+                                android:textSize="20sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="40dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/proico"
+                        android:id="@+id/pendproPorpicID"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="4dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

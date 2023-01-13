@@ -1,0 +1,937 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f569d3e09b7821d0e1dcb9add05f4280\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.irfaan008:IRBottomNavigationView:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\775f9761d9bd1525e9e8da4a8bc392ea\jetified-IRBottomNavigationView-1.0.1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\edaff9cabf4cc42bd96f23c5ad011e1d\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\781c3da8ccc59d3cf9beb453bec167ca\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25e52d8a77b68b8a164a14d82060b8cb\jetified-viewpagerdotsindicator-3.0.3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b0e11a4a5dcae9a7dde76748a4014757\jetified-Animatoo-master\AndroidManifest.xml:2:1-11:12
+MERGED from [com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6cb6d263815fdf027fb56935d9b60be5\jetified-roundedhorizontalprogress-1.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2813e099ad1ecfcfe93221c3dbc3e305\jetified-tt-fancy-gif-dialog-1.0.2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ab8fd7a2a88200ada28c05c97833585d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\97d242daeb10c6c7633092dcf4a77467\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:2:1-122:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\29977d05fb56a7709e583de88f9471d6\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bda594c518c6fc0058e34c21c77ca9d2\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bd4621d3c5b90ffecd90d7634a7820c4\jetified-bubblenavigation-1.0.7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1e29aa903e27390e11b66597bfd78c98\jetified-rxpermissions-0.10.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.1.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\07f6af0d7edf284ce2d5f61dbb7af2e4\jetified-rxbinding-2.1.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\46ee88f10163a5f7e01a8309ca93dddf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\30ec84083447c75ad2ebf80840ed1a30\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3e625083bcc9e6046b7eca0fd83936e9\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\74f8f73274d9dcf8fd8f3b24d4bd0277\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\117c97bdfcb9c84684d7d8013b04bcdc\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0e729220a137914b03aa1d95aa703d50\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\12084e24e0035561fdc6d7e869150ea0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f7816d1e813a8a69dc826d6e23c7e02b\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c36efc64d1eb5b67ba759a5ad36e50ef\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3a3092a4b6c4934ee454c8e4d1fea30b\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d400173e46fc260f8b19a24ce929f315\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\526fb10c4399294c3f97f09a34c49894\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\034a1f5176cb3f769ce1ef66b84ca2f1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c8f32ad010e82bd54ca6a8da9b5be0fe\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f43676f892e6281d551e3082e60f1a15\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fbe1f91c812d8425af1eb6e7b2832bdf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0387b4931ced6c5117fc271cc316d6d7\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c72122e57a6959dfa11ebb61e4a868da\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0fe6a3b829484a54dd128ee344a77732\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a0395d71a1ba1caa8e59fe40199e957f\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\27d044a3fabad6065c3e1f86c2c94996\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ac892e8e83d9f01e64fbbcebe6655277\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8d47fb61b017dcd0dfe1ac5df4e8d49d\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0afefece30a9afe010a5c75ad1dbd750\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\df1e47cabdb91506c5cc372dbba9bd73\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3131af011114bea5b4eed52e1f24a9ed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\111b50bf27ec595790dc231016b42913\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e43c12d212fd17ee1cf25e9695a3dd13\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ce1486f9e376beaf3344ecc4e42de2e0\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\23a111d34004560c6a25f63dd7e4233b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\86255631a441bc610436a5ee11216aa1\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d5f9bbffbfea2197187f85dfd92b7a36\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4ecd72cafd9fe4fe77f69a33c4730d93\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d9fe85443cab1c88ffcf37acfa0a0435\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ebde64c9ff0ea3b56394be3d98404abc\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8db2f4f62dfb6f83a558ccf44b2d47b4\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4f70edd513331155b6c4e517526125ec\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4d0c955ba5df54c4e1ff14b17066fb9e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2d9ad5d32eed7dce7e4a376a0330bc71\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b6c8ee27ae98490659d092834cc49b57\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f5f78d2d3cc0f243e40b6e70d77cb4d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\750b5aeb9e1b3d70b70eb3d17bda3a8b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25b110580b746d210ab326eb301d11b6\jetified-protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7cc82116b786624cbab1353d697c93f8\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b163c9fdbbeec26a6e74cf25f8760162\jetified-grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1afed832f8bc4db3e7217ba531e73c6a\jetified-android-gif-drawable-1.2.10\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e96d5fa5b9b6ad466737a6d6367921f6\jetified-sdp-android-1.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fc10f2f86fbd32c020dc1fd5a3d2163f\jetified-rxandroid-2.0.0\AndroidManifest.xml:15:1-21:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+	package
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:1-82:12
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:2:11-69
+	tools:targetApi
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:6:5-24
+	android:targetSandboxVersion
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:5:5-37
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:16:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:18:5-68
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:13:5-66
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:23:5-66
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:14:22-64
+application
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:16:5-80:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\edaff9cabf4cc42bd96f23c5ad011e1d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\edaff9cabf4cc42bd96f23c5ad011e1d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25e52d8a77b68b8a164a14d82060b8cb\jetified-viewpagerdotsindicator-3.0.3\AndroidManifest.xml:11:5-20
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25e52d8a77b68b8a164a14d82060b8cb\jetified-viewpagerdotsindicator-3.0.3\AndroidManifest.xml:11:5-20
+MERGED from [com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6cb6d263815fdf027fb56935d9b60be5\jetified-roundedhorizontalprogress-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6cb6d263815fdf027fb56935d9b60be5\jetified-roundedhorizontalprogress-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2813e099ad1ecfcfe93221c3dbc3e305\jetified-tt-fancy-gif-dialog-1.0.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2813e099ad1ecfcfe93221c3dbc3e305\jetified-tt-fancy-gif-dialog-1.0.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:48:5-120:19
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:48:5-120:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bda594c518c6fc0058e34c21c77ca9d2\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bda594c518c6fc0058e34c21c77ca9d2\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1e29aa903e27390e11b66597bfd78c98\jetified-rxpermissions-0.10.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1e29aa903e27390e11b66597bfd78c98\jetified-rxpermissions-0.10.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\46ee88f10163a5f7e01a8309ca93dddf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\46ee88f10163a5f7e01a8309ca93dddf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\30ec84083447c75ad2ebf80840ed1a30\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\30ec84083447c75ad2ebf80840ed1a30\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3e625083bcc9e6046b7eca0fd83936e9\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3e625083bcc9e6046b7eca0fd83936e9\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\74f8f73274d9dcf8fd8f3b24d4bd0277\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\74f8f73274d9dcf8fd8f3b24d4bd0277\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\117c97bdfcb9c84684d7d8013b04bcdc\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\117c97bdfcb9c84684d7d8013b04bcdc\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0e729220a137914b03aa1d95aa703d50\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0e729220a137914b03aa1d95aa703d50\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\12084e24e0035561fdc6d7e869150ea0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\12084e24e0035561fdc6d7e869150ea0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f7816d1e813a8a69dc826d6e23c7e02b\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f7816d1e813a8a69dc826d6e23c7e02b\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4ecd72cafd9fe4fe77f69a33c4730d93\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4ecd72cafd9fe4fe77f69a33c4730d93\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:19:9-36
+	android:allowBackup
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:23:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:17:9-30
+activity#com.xd.drivesafe.ForgetPassActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:25:9-65
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:25:19-53
+activity#com.xd.drivesafe.User.RobiCodeActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:26:9-28:59
+	android:theme
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:27:13-50
+activity#com.xd.drivesafe.Reporter.DriverProfileRActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:29:9-69
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:29:19-66
+activity#com.xd.drivesafe.Admin.NidVerifiationActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:30:9-66
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:30:19-63
+activity#com.xd.drivesafe.Driver.NotificationSettingsActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:31:9-73
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:31:19-70
+activity#com.xd.drivesafe.Driver.ReviewActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:32:9-59
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:32:19-56
+activity#com.xd.drivesafe.Driver.PointHistoryActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:33:9-65
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:33:19-62
+activity#com.xd.drivesafe.Driver.MyIncidentActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:34:9-63
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:34:19-60
+activity#com.xd.drivesafe.Driver.MyQRcodeActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:35:9-61
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:35:19-58
+activity#com.xd.drivesafe.Admin.SendSMSActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:36:9-59
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:36:19-56
+activity#com.xd.drivesafe.Driver.IncidentRulesActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:37:9-66
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:37:19-63
+activity#com.xd.drivesafe.Driver.PersonalinformationActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:38:9-40:59
+	android:theme
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:39:13-63
+activity#com.xd.drivesafe.User.UserProfileActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:41:9-43:59
+	android:theme
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:42:13-53
+activity#com.xd.drivesafe.User.UserRegActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:44:9-58
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:44:19-55
+activity#com.xd.drivesafe.User.DriverProfileUserActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:45:9-68
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:45:19-65
+activity#com.xd.drivesafe.User.CommentActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:46:9-58
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:46:19-55
+activity#com.xd.drivesafe.Reporter.ShowIncidentActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:47:9-67
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:47:19-64
+activity#com.xd.drivesafe.Driver.DriverprofileDActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:48:9-67
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:48:19-64
+activity#com.xd.drivesafe.Reporter.AllincidentlistRActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:49:9-71
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:49:19-68
+activity#com.xd.drivesafe.Reporter.ReportActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:50:9-61
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:50:19-58
+activity#com.xd.drivesafe.Admin.ReporterandAdminListActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:51:9-72
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:51:19-69
+activity#com.xd.drivesafe.Admin.ApprovepageActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:52:9-63
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:52:19-60
+activity#com.xd.drivesafe.Admin.IncidentActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:53:9-60
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:53:19-57
+activity#com.xd.drivesafe.Admin.RequestDriverActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:54:9-65
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:54:19-62
+activity#com.xd.drivesafe.Admin.DriverlistActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:55:9-62
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:55:19-59
+activity#com.xd.drivesafe.Admin.CreateAdminActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:56:9-63
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:56:19-60
+activity#com.xd.drivesafe.Admin.CreateReporterActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:57:9-66
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:57:19-63
+activity#com.xd.drivesafe.Driver.RegistrationActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:58:9-65
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:58:19-62
+activity#com.xd.drivesafe.User.UserMainActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:59:9-61:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:61:13-52
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:60:13-50
+activity#com.xd.drivesafe.Reporter.ReporterMainActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:62:9-64:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:64:13-52
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:63:13-58
+activity#com.xd.drivesafe.Admin.AdminMainActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:65:9-67:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:67:13-52
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:66:13-52
+activity#com.xd.drivesafe.FirstActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:68:9-75:20
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:68:19-48
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:69:13-74:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:70:17-69
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:70:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:73:27-74
+activity#com.xd.drivesafe.LoginActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:76:9-51
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:76:19-48
+activity#com.xd.drivesafe.Driver.MainDriverActivity
+ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:77:9-79:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:79:13-52
+	android:name
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:78:13-54
+uses-sdk
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f569d3e09b7821d0e1dcb9add05f4280\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f569d3e09b7821d0e1dcb9add05f4280\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.irfaan008:IRBottomNavigationView:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\775f9761d9bd1525e9e8da4a8bc392ea\jetified-IRBottomNavigationView-1.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.irfaan008:IRBottomNavigationView:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\775f9761d9bd1525e9e8da4a8bc392ea\jetified-IRBottomNavigationView-1.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\edaff9cabf4cc42bd96f23c5ad011e1d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\edaff9cabf4cc42bd96f23c5ad011e1d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\781c3da8ccc59d3cf9beb453bec167ca\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\781c3da8ccc59d3cf9beb453bec167ca\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25e52d8a77b68b8a164a14d82060b8cb\jetified-viewpagerdotsindicator-3.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25e52d8a77b68b8a164a14d82060b8cb\jetified-viewpagerdotsindicator-3.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b0e11a4a5dcae9a7dde76748a4014757\jetified-Animatoo-master\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b0e11a4a5dcae9a7dde76748a4014757\jetified-Animatoo-master\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6cb6d263815fdf027fb56935d9b60be5\jetified-roundedhorizontalprogress-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6cb6d263815fdf027fb56935d9b60be5\jetified-roundedhorizontalprogress-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2813e099ad1ecfcfe93221c3dbc3e305\jetified-tt-fancy-gif-dialog-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2813e099ad1ecfcfe93221c3dbc3e305\jetified-tt-fancy-gif-dialog-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ab8fd7a2a88200ada28c05c97833585d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ab8fd7a2a88200ada28c05c97833585d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ed2e7565d6c3314fe0aa868e313e324e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\97d242daeb10c6c7633092dcf4a77467\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\97d242daeb10c6c7633092dcf4a77467\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:4:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\29977d05fb56a7709e583de88f9471d6\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\29977d05fb56a7709e583de88f9471d6\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bda594c518c6fc0058e34c21c77ca9d2\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bda594c518c6fc0058e34c21c77ca9d2\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bd4621d3c5b90ffecd90d7634a7820c4\jetified-bubblenavigation-1.0.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.gauravk.bubblenavigation:bubblenavigation:1.0.7] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bd4621d3c5b90ffecd90d7634a7820c4\jetified-bubblenavigation-1.0.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1e29aa903e27390e11b66597bfd78c98\jetified-rxpermissions-0.10.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1e29aa903e27390e11b66597bfd78c98\jetified-rxpermissions-0.10.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.1.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\07f6af0d7edf284ce2d5f61dbb7af2e4\jetified-rxbinding-2.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.1.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\07f6af0d7edf284ce2d5f61dbb7af2e4\jetified-rxbinding-2.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\46ee88f10163a5f7e01a8309ca93dddf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\46ee88f10163a5f7e01a8309ca93dddf\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\30ec84083447c75ad2ebf80840ed1a30\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\30ec84083447c75ad2ebf80840ed1a30\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3e625083bcc9e6046b7eca0fd83936e9\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3e625083bcc9e6046b7eca0fd83936e9\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\74f8f73274d9dcf8fd8f3b24d4bd0277\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\74f8f73274d9dcf8fd8f3b24d4bd0277\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\117c97bdfcb9c84684d7d8013b04bcdc\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\117c97bdfcb9c84684d7d8013b04bcdc\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0e729220a137914b03aa1d95aa703d50\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0e729220a137914b03aa1d95aa703d50\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\12084e24e0035561fdc6d7e869150ea0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\12084e24e0035561fdc6d7e869150ea0\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f7816d1e813a8a69dc826d6e23c7e02b\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f7816d1e813a8a69dc826d6e23c7e02b\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c36efc64d1eb5b67ba759a5ad36e50ef\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c36efc64d1eb5b67ba759a5ad36e50ef\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3a3092a4b6c4934ee454c8e4d1fea30b\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3a3092a4b6c4934ee454c8e4d1fea30b\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d400173e46fc260f8b19a24ce929f315\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d400173e46fc260f8b19a24ce929f315\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\526fb10c4399294c3f97f09a34c49894\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\526fb10c4399294c3f97f09a34c49894\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\034a1f5176cb3f769ce1ef66b84ca2f1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\034a1f5176cb3f769ce1ef66b84ca2f1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c8f32ad010e82bd54ca6a8da9b5be0fe\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c8f32ad010e82bd54ca6a8da9b5be0fe\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f43676f892e6281d551e3082e60f1a15\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f43676f892e6281d551e3082e60f1a15\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fbe1f91c812d8425af1eb6e7b2832bdf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fbe1f91c812d8425af1eb6e7b2832bdf\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0387b4931ced6c5117fc271cc316d6d7\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0387b4931ced6c5117fc271cc316d6d7\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c72122e57a6959dfa11ebb61e4a868da\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c72122e57a6959dfa11ebb61e4a868da\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0fe6a3b829484a54dd128ee344a77732\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0fe6a3b829484a54dd128ee344a77732\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a0395d71a1ba1caa8e59fe40199e957f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a0395d71a1ba1caa8e59fe40199e957f\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\27d044a3fabad6065c3e1f86c2c94996\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\27d044a3fabad6065c3e1f86c2c94996\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ac892e8e83d9f01e64fbbcebe6655277\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ac892e8e83d9f01e64fbbcebe6655277\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8d47fb61b017dcd0dfe1ac5df4e8d49d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8d47fb61b017dcd0dfe1ac5df4e8d49d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0afefece30a9afe010a5c75ad1dbd750\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\0afefece30a9afe010a5c75ad1dbd750\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\df1e47cabdb91506c5cc372dbba9bd73\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\df1e47cabdb91506c5cc372dbba9bd73\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3131af011114bea5b4eed52e1f24a9ed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\3131af011114bea5b4eed52e1f24a9ed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\111b50bf27ec595790dc231016b42913\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\111b50bf27ec595790dc231016b42913\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e43c12d212fd17ee1cf25e9695a3dd13\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e43c12d212fd17ee1cf25e9695a3dd13\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ce1486f9e376beaf3344ecc4e42de2e0\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ce1486f9e376beaf3344ecc4e42de2e0\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\23a111d34004560c6a25f63dd7e4233b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\23a111d34004560c6a25f63dd7e4233b\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\86255631a441bc610436a5ee11216aa1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\86255631a441bc610436a5ee11216aa1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d5f9bbffbfea2197187f85dfd92b7a36\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d5f9bbffbfea2197187f85dfd92b7a36\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4ecd72cafd9fe4fe77f69a33c4730d93\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4ecd72cafd9fe4fe77f69a33c4730d93\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d9fe85443cab1c88ffcf37acfa0a0435\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d9fe85443cab1c88ffcf37acfa0a0435\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ebde64c9ff0ea3b56394be3d98404abc\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\ebde64c9ff0ea3b56394be3d98404abc\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8db2f4f62dfb6f83a558ccf44b2d47b4\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\8db2f4f62dfb6f83a558ccf44b2d47b4\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4f70edd513331155b6c4e517526125ec\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4f70edd513331155b6c4e517526125ec\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4d0c955ba5df54c4e1ff14b17066fb9e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\4d0c955ba5df54c4e1ff14b17066fb9e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2d9ad5d32eed7dce7e4a376a0330bc71\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2d9ad5d32eed7dce7e4a376a0330bc71\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b6c8ee27ae98490659d092834cc49b57\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b6c8ee27ae98490659d092834cc49b57\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f5f78d2d3cc0f243e40b6e70d77cb4d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\f5f78d2d3cc0f243e40b6e70d77cb4d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\750b5aeb9e1b3d70b70eb3d17bda3a8b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\750b5aeb9e1b3d70b70eb3d17bda3a8b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25b110580b746d210ab326eb301d11b6\jetified-protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\25b110580b746d210ab326eb301d11b6\jetified-protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7cc82116b786624cbab1353d697c93f8\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7cc82116b786624cbab1353d697c93f8\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b163c9fdbbeec26a6e74cf25f8760162\jetified-grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b163c9fdbbeec26a6e74cf25f8760162\jetified-grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1afed832f8bc4db3e7217ba531e73c6a\jetified-android-gif-drawable-1.2.10\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\1afed832f8bc4db3e7217ba531e73c6a\jetified-android-gif-drawable-1.2.10\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e96d5fa5b9b6ad466737a6d6367921f6\jetified-sdp-android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e96d5fa5b9b6ad466737a6d6367921f6\jetified-sdp-android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fc10f2f86fbd32c020dc1fd5a3d2163f\jetified-rxandroid-2.0.0\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fc10f2f86fbd32c020dc1fd5a3d2163f\jetified-rxandroid-2.0.0\AndroidManifest.xml:19:5-43
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+activity#com.blikoon.qrcodescanner.QrCodeActivity
+ADDED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from [com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:19-74
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b163c9fdbbeec26a6e74cf25f8760162\jetified-grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\b163c9fdbbeec26a6e74cf25f8760162\jetified-grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:26:22-76
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:33:17-117
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:8:9-63
+permission#com.xd.drivesafe.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:22-76
+uses-permission#com.xd.drivesafe.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.xd.drivesafe
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:27-58
+category#com.xd.drivesafe
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:19-74
+service#com.onesignal.HmsMessageServiceOneSignal
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:70:9-76:19
+	android:exported
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:71:13-68
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:73:13-75:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:25-78
+activity#com.onesignal.NotificationOpenedActivityHMS
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:78:9-84:20
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:79:13-71
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:81:13-83:29
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:87:9-89:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:89:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:88:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:90:9-92:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:91:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:93:9-95:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:95:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:94:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:96:9-98:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:98:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:97:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:99:9-101:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:100:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:103:9-105:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:105:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:104:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:109:9-114:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:109:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:110:13-113:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:111:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:111:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:112:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:112:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:115:9-119:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:115:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:116:13-118:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:117:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:117:25-81
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:25-75
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

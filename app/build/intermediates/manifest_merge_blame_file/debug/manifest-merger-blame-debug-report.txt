@@ -1,0 +1,539 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xd.drivesafe"
+4    android:targetSandboxVersion="1"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:9:5-80
+13-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:9:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:10:5-81
+14-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:11:5-68
+15-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:11:22-65
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:12:5-65
+16-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:12:22-62
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:13:5-66
+17-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:13:22-63
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:14:22-64
+19
+20    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+22-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:26:5-79
+22-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:26:22-76
+23    <permission
+23-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:7:5-9:47
+24        android:name="com.xd.drivesafe.permission.C2D_MESSAGE"
+24-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:8:9-63
+25        android:protectionLevel="signature" />
+25-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:9:9-44
+26
+27    <uses-permission android:name="com.xd.drivesafe.permission.C2D_MESSAGE" />
+27-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:5-79
+27-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:22-76
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:17:5-82
+28-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:17:22-79
+29    <!--
+30 Use to restore notifications the user hasn't interacted with.
+31         They could be missed notifications if the user reboots their device if this isn't in place.
+32    -->
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+33-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:5-81
+33-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:22-78
+34    <!-- Samsung -->
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+35-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:5-86
+35-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:22-83
+36    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+36-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:5-87
+36-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:22-84
+37    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+37-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:5-81
+37-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:22-78
+38    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+38-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:5-83
+38-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:22-80
+39    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+39-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:5-88
+39-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:22-85
+40    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+40-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:5-92
+40-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:22-89
+41    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+41-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:5-84
+41-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:22-81
+42    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+42-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:5-83
+42-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:22-80
+43    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+43-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:5-91
+43-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:22-88
+44    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+44-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:5-92
+44-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:22-89
+45    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+45-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:5-93
+45-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:22-90
+46    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+46-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:5-73
+46-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:22-70
+47    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+47-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:5-82
+47-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:22-79
+48    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+48-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:5-83
+48-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:22-80
+49    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+49-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:5-88
+49-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:22-85
+50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+50-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:5-89
+50-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:22-86
+51
+52    <application
+52-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:16:5-80:19
+53        android:name="com.xd.drivesafe.MyApp"
+53-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:17:9-30
+54        android:allowBackup="true"
+54-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:18:9-35
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\426b41a412186af36330cd4ba591c080\core-1.1.0\AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/logo"
+57-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:19:9-36
+58        android:label="@string/app_name"
+58-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:20:9-41
+59        android:roundIcon="@mipmap/logo"
+59-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:21:9-41
+60        android:supportsRtl="true"
+60-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:22:9-35
+61        android:theme="@style/AppTheme"
+61-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:23:9-40
+62        android:usesCleartextTraffic="true" >
+62-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:24:9-44
+63        <activity android:name="com.xd.drivesafe.ForgetPassActivity" />
+63-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:25:9-65
+63-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:25:19-53
+64        <activity
+64-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:26:9-28:59
+65            android:name="com.xd.drivesafe.User.RobiCodeActivity"
+65-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:27:13-50
+66            android:theme="@style/AppTheme.popUpWindow" />
+66-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:28:13-56
+67        <activity android:name="com.xd.drivesafe.Reporter.DriverProfileRActivity" />
+67-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:29:9-69
+67-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:29:19-66
+68        <activity android:name="com.xd.drivesafe.Admin.NidVerifiationActivity" />
+68-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:30:9-66
+68-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:30:19-63
+69        <activity android:name="com.xd.drivesafe.Driver.NotificationSettingsActivity" />
+69-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:31:9-73
+69-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:31:19-70
+70        <activity android:name="com.xd.drivesafe.Driver.ReviewActivity" />
+70-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:32:9-59
+70-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:32:19-56
+71        <activity android:name="com.xd.drivesafe.Driver.PointHistoryActivity" />
+71-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:33:9-65
+71-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:33:19-62
+72        <activity android:name="com.xd.drivesafe.Driver.MyIncidentActivity" />
+72-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:34:9-63
+72-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:34:19-60
+73        <activity android:name="com.xd.drivesafe.Driver.MyQRcodeActivity" />
+73-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:35:9-61
+73-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:35:19-58
+74        <activity android:name="com.xd.drivesafe.Admin.SendSMSActivity" />
+74-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:36:9-59
+74-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:36:19-56
+75        <activity android:name="com.xd.drivesafe.Driver.IncidentRulesActivity" />
+75-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:37:9-66
+75-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:37:19-63
+76        <activity
+76-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:38:9-40:59
+77            android:name="com.xd.drivesafe.Driver.PersonalinformationActivity"
+77-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:39:13-63
+78            android:theme="@style/AppTheme.popUpWindow" />
+78-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:40:13-56
+79        <activity
+79-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:41:9-43:59
+80            android:name="com.xd.drivesafe.User.UserProfileActivity"
+80-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:42:13-53
+81            android:theme="@style/AppTheme.popUpWindow" />
+81-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:43:13-56
+82        <activity android:name="com.xd.drivesafe.User.UserRegActivity" />
+82-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:44:9-58
+82-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:44:19-55
+83        <activity android:name="com.xd.drivesafe.User.DriverProfileUserActivity" />
+83-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:45:9-68
+83-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:45:19-65
+84        <activity android:name="com.xd.drivesafe.User.CommentActivity" />
+84-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:46:9-58
+84-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:46:19-55
+85        <activity android:name="com.xd.drivesafe.Reporter.ShowIncidentActivity" />
+85-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:47:9-67
+85-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:47:19-64
+86        <activity android:name="com.xd.drivesafe.Driver.DriverprofileDActivity" />
+86-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:48:9-67
+86-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:48:19-64
+87        <activity android:name="com.xd.drivesafe.Reporter.AllincidentlistRActivity" />
+87-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:49:9-71
+87-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:49:19-68
+88        <activity android:name="com.xd.drivesafe.Reporter.ReportActivity" />
+88-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:50:9-61
+88-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:50:19-58
+89        <activity android:name="com.xd.drivesafe.Admin.ReporterandAdminListActivity" />
+89-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:51:9-72
+89-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:51:19-69
+90        <activity android:name="com.xd.drivesafe.Admin.ApprovepageActivity" />
+90-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:52:9-63
+90-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:52:19-60
+91        <activity android:name="com.xd.drivesafe.Admin.IncidentActivity" />
+91-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:53:9-60
+91-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:53:19-57
+92        <activity android:name="com.xd.drivesafe.Admin.RequestDriverActivity" />
+92-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:54:9-65
+92-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:54:19-62
+93        <activity android:name="com.xd.drivesafe.Admin.DriverlistActivity" />
+93-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:55:9-62
+93-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:55:19-59
+94        <activity android:name="com.xd.drivesafe.Admin.CreateAdminActivity" />
+94-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:56:9-63
+94-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:56:19-60
+95        <activity android:name="com.xd.drivesafe.Admin.CreateReporterActivity" />
+95-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:57:9-66
+95-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:57:19-63
+96        <activity android:name="com.xd.drivesafe.Driver.RegistrationActivity" />
+96-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:58:9-65
+96-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:58:19-62
+97        <activity
+97-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:59:9-61:55
+98            android:name="com.xd.drivesafe.User.UserMainActivity"
+98-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:60:13-50
+99            android:windowSoftInputMode="adjustPan" />
+99-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:61:13-52
+100        <activity
+100-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:62:9-64:55
+101            android:name="com.xd.drivesafe.Reporter.ReporterMainActivity"
+101-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:63:13-58
+102            android:windowSoftInputMode="adjustPan" />
+102-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:64:13-52
+103        <activity
+103-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:65:9-67:55
+104            android:name="com.xd.drivesafe.Admin.AdminMainActivity"
+104-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:66:13-52
+105            android:windowSoftInputMode="adjustPan" />
+105-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:67:13-52
+106        <activity android:name="com.xd.drivesafe.FirstActivity" >
+106-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:68:9-75:20
+106-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:68:19-48
+107            <intent-filter>
+107-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:69:13-74:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:70:17-69
+108-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:70:25-66
+109                <action android:name="android.intent.action.VIEW" />
+109-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:17-69
+109-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:73:17-77
+111-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:73:27-74
+112            </intent-filter>
+113        </activity>
+114        <activity android:name="com.xd.drivesafe.LoginActivity" />
+114-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:76:9-51
+114-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:76:19-48
+115        <activity
+115-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:77:9-79:55
+116            android:name="com.xd.drivesafe.Driver.MainDriverActivity"
+116-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:78:13-54
+117            android:windowSoftInputMode="adjustPan" />
+117-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:79:13-52
+118        <activity android:name="com.blikoon.qrcodescanner.QrCodeActivity" >
+118-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:9-16:20
+118-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\2528c0cc00aa70ffdcb731e7294a6785\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:19-74
+119        </activity>
+120        <activity
+120-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+121            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+121-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+122            android:excludeFromRecents="true"
+122-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+123            android:exported="true"
+123-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+124            android:launchMode="singleTask"
+124-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+125            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+125-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+127
+128        <service
+128-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+129            android:name="com.google.firebase.components.ComponentDiscoveryService"
+129-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+132            <meta-data
+132-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+133                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+133-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d8bef81b469ffcd389532e6820b262ec\jetified-firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+136                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+136-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\a3f7b36381031172e0cc673d80594dbd\jetified-firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:32:13-34:85
+139                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+139-->[com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:33:17-117
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-config:19.0.3] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7fc6ee0898a42b8788a3b6dfea0f8d10\jetified-firebase-config-19.0.3\AndroidManifest.xml:34:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+142                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+142-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\6a0bd9a1b463d6b54e90bf14f125443e\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+145                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+145-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
+148                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+148-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d2306a6f356f606526805f861188e36d\jetified-firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
+150        </service>
+151
+152        <meta-data
+152-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:49:9-51:51
+153            android:name="onesignal_app_id"
+153-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:50:13-44
+154            android:value="eecf9a58-d166-4a43-b61b-f2260f77edd9" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+154-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:51:13-48
+155        <meta-data
+155-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:53:9-55:70
+156            android:name="onesignal_google_project_number"
+156-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:54:13-59
+157            android:value="str:210374098334" />
+157-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:55:13-67
+158
+159        <receiver
+159-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:57:9-67:20
+160            android:name="com.onesignal.GcmBroadcastReceiver"
+160-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:58:13-62
+161            android:permission="com.google.android.c2dm.permission.SEND" >
+161-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:59:13-73
+162
+163            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+164            <intent-filter android:priority="999" >
+164-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:13-66:29
+164-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:62:28-50
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:17-81
+165-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:25-78
+166
+167                <category android:name="com.xd.drivesafe" />
+167-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:17-61
+167-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:65:27-58
+168            </intent-filter>
+169        </receiver>
+170        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+170-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:9-77
+170-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:19-74
+171
+172        <service
+172-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:70:9-76:19
+173            android:name="com.onesignal.HmsMessageServiceOneSignal"
+173-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:71:13-68
+174            android:exported="false" >
+174-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:72:13-37
+175            <intent-filter>
+175-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:73:13-75:29
+176                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+176-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:17-81
+176-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:25-78
+177            </intent-filter>
+178        </service>
+179
+180        <activity
+180-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:78:9-84:20
+181            android:name="com.onesignal.NotificationOpenedActivityHMS"
+181-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:79:13-71
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+182-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:80:13-72
+183            <intent-filter>
+183-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:81:13-83:29
+184                <action android:name="android.intent.action.VIEW" />
+184-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:17-69
+184-->C:\Users\yotech05\Downloads\Kiosk\Drive-Safe\app\src\main\AndroidManifest.xml:71:25-66
+185            </intent-filter>
+186        </activity>
+187
+188        <service android:name="com.onesignal.GcmIntentService" />
+188-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:9-66
+188-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:18-63
+189        <service
+189-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:87:9-89:72
+190            android:name="com.onesignal.GcmIntentJobService"
+190-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:88:13-61
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:89:13-69
+192        <service
+192-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:90:9-92:72
+193            android:name="com.onesignal.RestoreJobService"
+193-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:91:13-59
+194            android:permission="android.permission.BIND_JOB_SERVICE" />
+194-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:92:13-69
+195        <service
+195-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:93:9-95:72
+196            android:name="com.onesignal.RestoreKickoffJobService"
+196-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:94:13-66
+197            android:permission="android.permission.BIND_JOB_SERVICE" />
+197-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:95:13-69
+198        <service
+198-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:96:9-98:43
+199            android:name="com.onesignal.SyncService"
+199-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:97:13-53
+200            android:stopWithTask="true" />
+200-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:98:13-40
+201        <service
+201-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:99:9-101:72
+202            android:name="com.onesignal.SyncJobService"
+202-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:100:13-56
+203            android:permission="android.permission.BIND_JOB_SERVICE" />
+203-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:101:13-69
+204
+205        <activity
+205-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:103:9-105:75
+206            android:name="com.onesignal.PermissionsActivity"
+206-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:104:13-61
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:105:13-72
+208
+209        <service android:name="com.onesignal.NotificationRestoreService" />
+209-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:9-76
+209-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:18-73
+210
+211        <receiver android:name="com.onesignal.BootUpReceiver" >
+211-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:109:9-114:20
+211-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:109:19-62
+212            <intent-filter>
+212-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:110:13-113:29
+213                <action android:name="android.intent.action.BOOT_COMPLETED" />
+213-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:111:17-79
+213-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:111:25-76
+214                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+214-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:112:17-82
+214-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:112:25-79
+215            </intent-filter>
+216        </receiver>
+217        <receiver android:name="com.onesignal.UpgradeReceiver" >
+217-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:115:9-119:20
+217-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:115:19-63
+218            <intent-filter>
+218-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:116:13-118:29
+219                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+219-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:117:17-84
+219-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:117:25-81
+220            </intent-filter>
+221        </receiver>
+222
+223        <provider
+223-->[com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+224            android:name="com.squareup.picasso.PicassoProvider"
+224-->[com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+225            android:authorities="com.xd.drivesafe.com.squareup.picasso"
+225-->[com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+226            android:exported="false" />
+226-->[com.squareup.picasso:picasso:2.71828] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\669f273de9874efa134d70690b672974\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+227        <!--
+228             FirebaseMessagingService performs security checks at runtime,
+229             but set to not exported to explicitly avoid allowing another app to call it.
+230        -->
+231        <service
+231-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+232            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+232-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+233            android:exported="false" >
+233-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+234            <intent-filter android:priority="-500" >
+234-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:13-33:29
+234-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:31:28-51
+235                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+235-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:17-78
+235-->[com.google.firebase:firebase-messaging:18.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\fdc022fc026a284a4ca9c9191733bba7\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:32:25-75
+236            </intent-filter>
+237        </service>
+238
+239        <receiver
+239-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+240            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+240-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+241            android:exported="true"
+241-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+242            android:permission="com.google.android.c2dm.permission.SEND" >
+242-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+243            <intent-filter>
+243-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\c99f0123cc4b606f1912791fd1789253\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+244                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+244-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:17-81
+244-->[com.onesignal:OneSignal:3.16.1] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\e4fd70e5ec559f01446cbf95358d0a45\jetified-OneSignal-3.16.1\AndroidManifest.xml:63:25-78
+245            </intent-filter>
+246        </receiver>
+247
+248        <activity
+248-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+249            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+249-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+250            android:exported="false"
+250-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+251-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\bf2bea7e8bdb47c3ba0c5cb7ed2b8284\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+252
+253        <provider
+253-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+254            android:name="com.google.firebase.provider.FirebaseInitProvider"
+254-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+255            android:authorities="com.xd.drivesafe.firebaseinitprovider"
+255-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+256            android:exported="false"
+256-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+257            android:initOrder="100" />
+257-->[com.google.firebase:firebase-common:19.3.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\7e24a4853fa31e7c5a1f0896ed06ef34\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+258
+259        <meta-data
+259-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+260            android:name="com.google.android.gms.version"
+260-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+261            android:value="@integer/google_play_services_version" />
+261-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yotech05\.gradle\caches\transforms-2\files-2.1\d241a53f188ac92cfadf17d9dd615ec2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+262    </application>
+263
+264</manifest>

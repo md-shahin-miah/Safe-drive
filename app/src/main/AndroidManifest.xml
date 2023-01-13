@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shahin.drivesafe"
+    android:targetSandboxVersion="1"
+    tools:targetApi="o">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name="com.shahin.drivesafe.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.shahin.drivesafe.ForgetPassActivity"></activity>
+        <activity
+            android:name="com.shahin.drivesafe.User.RobiCodeActivity"
+            android:theme="@style/AppTheme.popUpWindow" />
+        <activity android:name="com.shahin.drivesafe.Reporter.DriverProfileRActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.NidVerifiationActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.NotificationSettingsActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.ReviewActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.PointHistoryActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.MyIncidentActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.MyQRcodeActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.SendSMSActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.IncidentRulesActivity" />
+        <activity
+            android:name="com.shahin.drivesafe.Driver.PersonalinformationActivity"
+            android:theme="@style/AppTheme.popUpWindow" />
+        <activity
+            android:name="com.shahin.drivesafe.User.UserProfileActivity"
+            android:theme="@style/AppTheme.popUpWindow" />
+        <activity android:name="com.shahin.drivesafe.User.UserRegActivity" />
+        <activity android:name="com.shahin.drivesafe.User.DriverProfileUserActivity" />
+        <activity android:name="com.shahin.drivesafe.User.CommentActivity" />
+        <activity android:name="com.shahin.drivesafe.Reporter.ShowIncidentActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.DriverprofileDActivity" />
+        <activity android:name=".Reporter.AllincidentlistRActivity" />
+        <activity android:name="com.shahin.drivesafe.Reporter.ReportActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.ReporterandAdminListActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.ApprovepageActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.IncidentActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.RequestDriverActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.DriverlistActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.CreateAdminActivity" />
+        <activity android:name="com.shahin.drivesafe.Admin.CreateReporterActivity" />
+        <activity android:name="com.shahin.drivesafe.Driver.RegistrationActivity" />
+        <activity
+            android:name="com.shahin.drivesafe.User.UserMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.shahin.drivesafe.Reporter.ReporterMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.shahin.drivesafe.Admin.AdminMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.shahin.drivesafe.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shahin.drivesafe.LoginActivity" />
+        <activity
+            android:name="com.shahin.drivesafe.Driver.MainDriverActivity"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

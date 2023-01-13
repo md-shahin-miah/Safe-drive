@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="40dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tollbar"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="55dp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingTop="30dp"
+                            android:paddingBottom="30dp">
+
+
+                            <Button
+                                android:id="@+id/dselctimageID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginRight="30dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/cardshape"
+                                android:paddingEnd="20dp"
+                                android:text="@string/select_profile_picture"
+                                android:textColor="#fff"
+                                android:textSize="14sp"
+                                tools:ignore="RtlSymmetry" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dnameID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/enter_your_name"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dnidID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/your_nid_number"
+                                android:inputType="number"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dlicenseID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/your_license_number"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/daddressID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <TextView
+                                android:text="Birthday"
+                                android:padding="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                            </TextView>
+
+                            <DatePicker
+                                android:id="@+id/datepikerId"
+                                android:datePickerMode="spinner"
+                                android:calendarViewShown="false"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                            </DatePicker>
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dphoneID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/phone_number"
+                                android:inputType="number"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC"
+
+                                />
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/select_your_gender"
+                                android:inputType="phone"
+                                android:padding="20dp"
+                                android:textSize="16sp"
+                                tools:ignore="TextViewEdits" />
+
+                            <RadioGroup
+                                android:id="@+id/radiogroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:checked="true"
+                                    android:id="@+id/maleID"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="40dp"
+                                    android:padding="10dp"
+                                    android:text="@string/male" />
+
+                                <RadioButton
+                                    android:id="@+id/femaleID"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:text="@string/female" />
+                            </RadioGroup>
+
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/downernameID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/vehicle_owner_name"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/downeraddressID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/owner_address"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/downerPhoneId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/owner_phone_number"
+                                android:inputType="number"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dnumberplateID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/vehicle_number_plate"
+                                android:inputType="text"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/demailId"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/enter_your_email"
+                                android:inputType="textEmailAddress"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+                            <com.rengwuxian.materialedittext.MaterialEditText
+                                android:id="@+id/dpasswordID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:padding="20dp"
+                                android:textColorHint="#FFFCFC" />
+
+
+                            <Button
+                                android:id="@+id/dregisterID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="40dp"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/button_bg"
+                                android:padding="10dp"
+                                android:text="@string/register"
+                                android:textColor="#fff"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/already_have_an_account"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/backloginpage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/login_now"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:src="@drawable/proico"
+                    android:id="@+id/dimageID"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="5dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

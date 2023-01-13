@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.irfaan008:IRBottomNavigationView:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/775f9761d9bd1525e9e8da4a8bc392ea/jetified-IRBottomNavigationView-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/775f9761d9bd1525e9e8da4a8bc392ea/jetified-IRBottomNavigationView-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/775f9761d9bd1525e9e8da4a8bc392ea/jetified-IRBottomNavigationView-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.irfaan008/IRBottomNavigationView/1.0.1/348c7e35ca3c2e8963fc576666176d97e7caabab/IRBottomNavigationView-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.irfaan008/IRBottomNavigationView/1.0.1/16abd68e7d0b6b2f8b129a0d317c375fcef5059f/IRBottomNavigationView-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:layout_margin="2dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/itemmain_imgm"
+        android:src="@drawable/proico"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/itemmain_imgm"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/item_Driver_Namae_Id"
+            android:lines="1"
+            android:drawableRight="@drawable/ic_verified_user"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="18sp"
+            android:text="xihad islam "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/item_Driver_license_Id"
+                android:fontFamily="@font/roboto"
+                android:textSize="14sp"
+                android:text="04543504534534"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/item_createAt_ID"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/roboto"
+                android:textSize="14sp"
+                android:text="04543504534534"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimary" />
+
+</RelativeLayout>

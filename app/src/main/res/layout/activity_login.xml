@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/lin"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                app:contentPadding="5dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@+id/tollbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingBottom="30dp"
+                    android:paddingTop="30dp"
+                    android:layout_below="@+id/tollbar"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textAllCaps="true"
+                        android:layout_marginBottom="20dp"
+                        android:padding="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Drive Safe "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:drawableLeft="@drawable/ic_email_black_24dp"
+                        android:padding="20dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#FFFCFC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/loginemailId"
+                        />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:drawableLeft="@drawable/ic_lock_black_24dp"
+                        android:padding="20dp"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColorHint="#FFFCFC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/loginPassId"
+                        />
+
+                    <TextView
+                        android:id="@+id/forgetpssId"
+                        android:padding="5dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_gravity="left"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:text="Forgot password?"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/loginId"
+                        android:layout_marginBottom="20dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="30dp"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="@drawable/button_bg"
+                        android:text="login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/don_t_have_an_account"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_marginLeft="3dp"
+                            android:id="@+id/texttttt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_up"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/bcamedriverID"
+                        android:padding="10dp"
+                        android:textColor="@color/blue_active"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:text="Became a Driver ?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

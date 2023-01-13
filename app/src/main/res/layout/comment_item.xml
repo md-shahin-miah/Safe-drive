@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cpro"
+            android:src="@drawable/proico"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/commusername"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/cpro"
+            android:text="dfsdfsdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/maincomment"
+            android:lines="2"
+            android:textSize="16sp"
+            android:layout_below="@+id/commusername"
+            android:layout_toEndOf="@+id/cpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/comcreateat"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@color/grey_active" />
+
+</LinearLayout>

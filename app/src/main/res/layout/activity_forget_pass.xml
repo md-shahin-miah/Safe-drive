@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green_inactive"
+    android:gravity="center"
+    tools:context=".ForgetPassActivity">
+
+    <TextView
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/we_will_mail_you_a_link_after_when_you_provide_email_and_click_send_button_then_please_click_on_that_link_to_reset_your_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/resetemailId"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter your Mail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/resetbuttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/liner25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bag_left"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="Send Email"
+        android:textAllCaps="false"
+        android:textColor="@color/green_active"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardElevation="10dp"
+    app:contentPadding="2dp"
+    android:layout_margin="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:elevation="4dp"
+            android:padding="5dp"
+            android:id="@+id/lin_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/itemdrivernameID"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:background="@color/orange_bg_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:drawableRight="@drawable/ic_traffic_black_24dp"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:id="@+id/titleitemdriver"
+                android:text="dfsdfsdfsdfs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:id="@+id/caseitemdriverId"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="dfsfsdfsdfsdfsdfsdfsdf"
+                android:layout_below="@+id/titleitemdriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                >
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/itemcreateatID"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:text="xihafddsd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

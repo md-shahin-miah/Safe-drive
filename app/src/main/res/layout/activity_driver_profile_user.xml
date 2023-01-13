@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.DriverProfileUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+
+
+            <ImageView
+                android:id="@+id/coverpicId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@color/colorPrimary"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="100dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/pronameID"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableRight="@drawable/ic_verified_user_black_24dp"
+                                    android:drawablePadding="5dp"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:padding="5dp"
+                                    android:text="Name"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/proaddressId"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                                    android:drawablePadding="2dp"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="address"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/licensenumberID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                   android:drawablePadding="2dp"
+                                    android:fontFamily="@font/roboto"
+                                    android:text=""
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/phonenumber"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawablePadding="2dp"
+                                    android:fontFamily="@font/roboto"
+                                    android:text=""
+                                    android:textSize="14sp" />
+
+
+
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="@font/roboto"
+                                        android:text=" Your Demerit Point"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="20sp" />
+
+                                    <TextView
+                                        android:id="@+id/propointId"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="5dp"
+                                        android:background="@drawable/bag_right"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:paddingLeft="40dp"
+                                        android:paddingTop="5dp"
+                                        android:paddingRight="40dp"
+                                        android:paddingBottom="5dp"
+                                        android:text="N/A"
+                                        android:textColor="@color/white"
+                                        android:textSize="22sp" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@color/blue_bg_light"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="@font/roboto"
+                                        android:text="Average Rating  -  "
+                                        android:textSize="20sp" />
+
+                                    <TextView
+                                        android:id="@+id/avgrating"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="N/A"
+                                        android:textColor="@color/black"
+                                        android:textSize="22sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp">
+
+                                        <TextView
+                                            android:id="@+id/prog1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerVertical="true"
+                                            android:drawableRight="@drawable/ic_star_black_24dp"
+                                            android:text="5"
+                                            android:textSize="20sp" />
+
+                                        <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                            android:id="@+id/progress_bar1"
+                                            style="?android:attr/progressBarStyleHorizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="40dp"
+                                            android:layout_toEndOf="@+id/prog1"
+                                            android:indeterminate="false"
+                                            android:maxHeight="12dp"
+                                            android:minHeight="12dp"
+
+                                            app:backgroundColor="@color/green_bg_light"
+                                            app:progressColor="@color/green_active" />
+
+                                        <TextView
+                                            android:id="@+id/countpro"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:text=""
+                                            android:textSize="20sp" />
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp">
+
+                                        <TextView
+                                            android:id="@+id/prog2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerVertical="true"
+                                            android:drawableEnd="@drawable/ic_star_black_24dp"
+                                            android:text="4"
+                                            android:textSize="20sp" />
+
+                                        <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                            android:id="@+id/progress_bar2"
+                                            style="?android:attr/progressBarStyleHorizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="40dp"
+                                            android:layout_toEndOf="@+id/prog2"
+                                            android:indeterminate="false"
+                                            android:maxHeight="12dp"
+                                            android:minHeight="12dp"
+
+                                            app:backgroundColor="@color/blue_bg_light"
+                                            app:progressColor="@color/blue_active" />
+
+                                        <TextView
+                                            android:id="@+id/countpro2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_centerVertical="true"
+                                            android:text=""
+                                            android:textSize="20sp" />
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp">
+
+                                        <TextView
+                                            android:id="@+id/prog3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerVertical="true"
+                                            android:drawableEnd="@drawable/ic_star_black_24dp"
+                                            android:text="3"
+                                            android:textSize="20sp" />
+
+                                        <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                            android:id="@+id/progress_bar3"
+                                            style="?android:attr/progressBarStyleHorizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="40dp"
+                                            android:layout_toEndOf="@+id/prog3"
+                                            android:indeterminate="false"
+                                            android:maxHeight="12dp"
+                                            android:minHeight="12dp"
+
+                                            app:backgroundColor="@color/orange_bg_light"
+                                            app:progressColor="@color/orange_active" />
+
+                                        <TextView
+                                            android:id="@+id/countpro3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_centerVertical="true"
+                                            android:text=""
+                                            android:textSize="20sp" />
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp">
+
+                                        <TextView
+                                            android:id="@+id/prog4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerVertical="true"
+                                            android:drawableEnd="@drawable/ic_star_black_24dp"
+                                            android:text="2"
+                                            android:textSize="20sp" />
+
+                                        <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                            android:id="@+id/progress_bar4"
+                                            style="?android:attr/progressBarStyleHorizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="40dp"
+                                            android:layout_toEndOf="@+id/prog4"
+                                            android:indeterminate="false"
+                                            android:maxHeight="12dp"
+                                            android:minHeight="12dp"
+
+                                            app:backgroundColor="@color/purple_bg_light"
+                                            app:progressColor="@color/purple_active" />
+
+                                        <TextView
+                                            android:id="@+id/countpro4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_centerVertical="true"
+                                            android:text=""
+                                            android:textSize="20sp" />
+
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp">
+
+                                        <TextView
+                                            android:id="@+id/prog55"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerVertical="true"
+                                            android:drawableEnd="@drawable/ic_star_black_24dp"
+                                            android:text="1"
+                                            android:textSize="20sp" />
+
+                                        <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                                            android:id="@+id/progress_bar5"
+                                            style="?android:attr/progressBarStyleHorizontal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="40dp"
+                                            android:layout_toEndOf="@+id/prog55"
+                                            android:indeterminate="false"
+                                            android:maxHeight="12dp"
+                                            android:minHeight="12dp"
+
+                                            app:backgroundColor="@color/red_bg_light"
+                                            app:progressColor="@color/red_active" />
+
+                                        <TextView
+                                            android:id="@+id/countpro5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_centerVertical="true"
+                                            android:text=""
+                                            android:textSize="20sp" />
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:padding="10dp"
+                                    android:background="@color/blue_bg_light"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:text="Reviews"
+                                    android:textSize="20sp" />
+
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/reviewuserRecyID"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                </androidx.recyclerview.widget.RecyclerView>
+
+
+                                <TextView
+                                    android:id="@+id/morereview"
+                                    android:gravity="center_vertical"
+                                    android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:padding="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_marginRight="4dp"
+                                    android:text="more reviews"
+                                    android:textSize="20dp" />
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <RatingBar
+                                    android:rating="3"
+                                    android:id="@+id/userratingbarid"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_gravity="center"
+                                    android:numStars="5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                </RatingBar>
+
+                                <EditText
+                                    android:padding="8dp"
+                                    android:hint="Write some good reviews !"
+                                    android:id="@+id/writereview"
+                                    android:gravity="start"
+                                    android:layout_margin="8dp"
+                                    android:background="@drawable/bag"
+                                    android:layout_below="@+id/userratingbarid"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp">
+
+                                </EditText>
+
+                                <Button
+                                    android:id="@+id/subminreview"
+                                    android:layout_margin="5dp"
+                                    android:textColor="@color/white"
+                                    android:text="Submit"
+                                    android:background="@drawable/bag_right"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_below="@+id/writereview"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:padding="8dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/blue_bg_light"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Case Summary"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="22sp" />
+                            </LinearLayout>
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_margin="10dp"
+                                android:id="@+id/OwnRecyID"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                            </androidx.recyclerview.widget.RecyclerView>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/proPorpicID"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/propicID"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="4dp"
+                        />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

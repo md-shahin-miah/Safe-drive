@@ -1,0 +1,124 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.4, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.1"
+    defaultConfig {
+        applicationId "com.xd.drivesafe"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+
+
+        manifestPlaceholders = [
+                onesignal_app_id               : 'eecf9a58-d166-4a43-b61b-f2260f77edd9',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: '210374098334'
+        ]
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 11
+        targetCompatibility = 11
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-config:19.0.3'
+    implementation 'com.google.firebase:firebase-firestore:21.3.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //libraries we need for now
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+
+    // intent animation
+    implementation 'com.github.mohammadatif:Animatoo:master'
+
+    implementation 'com.github.marlonlom:timeago:1.0.0'
+
+
+    implementation 'com.google.zxing:core:3.3.0'
+
+
+    // bottom navigration
+    implementation 'com.gauravk.bubblenavigation:bubblenavigation:1.0.7'
+
+
+    // progragebar
+    implementation 'com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1'
+
+
+    implementation 'com.bestsoft32.tayyab:tt-fancy-gif-dialog:1.0.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+
+    implementation 'com.github.irfaan008:IRBottomNavigationView:1.0.1'
+
+
+    /// for qrcode scanner
+    implementation 'com.github.blikoon:QRCodeScanner:0.1.2'
+
+
+    //camera permission
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.1'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
+
+
+    implementation 'com.onesignal:OneSignal:[3.11.2, 3.99.99]'
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+
+
+}

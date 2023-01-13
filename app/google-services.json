@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "210374098334",
+    "firebase_url": "https://drivesafe-ae4da.firebaseio.com",
+    "project_id": "drivesafe-ae4da",
+    "storage_bucket": "drivesafe-ae4da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210374098334:android:2a7c1f0cea94238f3f2a8f",
+        "android_client_info": {
+          "package_name": "com.cra.admindrivesafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210374098334-8cfit0o880a4ehimfc9vsiunvgbsomgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cra.admindrivesafe",
+            "certificate_hash": "1d33ebd8d956fdcfae31dc5db8220f10a5dbd637"
+          }
+        },
+        {
+          "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaVgbuiDdkti6uwZfGVAg9WHXk1BWcY3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210374098334:android:67ac480f16f8a9ec3f2a8f",
+        "android_client_info": {
+          "package_name": "com.cra.reporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210374098334-20oiu01sp8ofjlot5spe5nbin1k8q5ca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cra.reporter",
+            "certificate_hash": "1d33ebd8d956fdcfae31dc5db8220f10a5dbd637"
+          }
+        },
+        {
+          "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaVgbuiDdkti6uwZfGVAg9WHXk1BWcY3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210374098334:android:359bcd64896781173f2a8f",
+        "android_client_info": {
+          "package_name": "com.cra.safedriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210374098334-mppnm49khtd9s5slp7cg11jcsrj1hkl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cra.safedriver",
+            "certificate_hash": "1d33ebd8d956fdcfae31dc5db8220f10a5dbd637"
+          }
+        },
+        {
+          "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaVgbuiDdkti6uwZfGVAg9WHXk1BWcY3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210374098334:android:76449c0c38dc93f83f2a8f",
+        "android_client_info": {
+          "package_name": "com.xd.drivesafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210374098334-oghe09mbn7cd2eh07u8kdbiknk111k67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xd.drivesafe",
+            "certificate_hash": "1d33ebd8d956fdcfae31dc5db8220f10a5dbd637"
+          }
+        },
+        {
+          "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaVgbuiDdkti6uwZfGVAg9WHXk1BWcY3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210374098334-s498vu5qi0ofo85jggfegugq4ksev9id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

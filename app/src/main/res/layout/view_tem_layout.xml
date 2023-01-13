@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="70dp"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/itemmain_img"
+        android:src="@drawable/proico"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        />
+    <RelativeLayout
+        android:paddingLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/itemmain_img"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+
+        <TextView
+            android:textColor="#2C2F31"
+            android:lines="1"
+            android:gravity="center_vertical"
+            android:id="@+id/itemmain_title"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="18sp"
+            android:text="ldfdskjlghsld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#2C2F31"
+            android:lines="1"
+            android:layout_below="@+id/itemmain_title"
+            android:id="@+id/itemmain_subtitle"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:text="ldfdskjlghsld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary" />
+
+</RelativeLayout>
+

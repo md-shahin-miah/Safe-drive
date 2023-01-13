@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Drive Safe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="onesignalappid">eecf9a58-d166-4a43-b61b-f2260f77edd9</string>
+
+    <string name="we_will_mail_you_a_link_after_when_you_provide_email_and_click_send_button_then_please_click_on_that_link_to_reset_your_password">We will mail you a link after when you provide email and click Send button.Then please click on that link to reset your password.</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="sign_up">sign up</string>
+    <string name="don_t_have_an_account">Don\'t have an account? </string>
+    <string name="login">login</string>
+    <string name="type_a_message">Type a Comment..</string>
+    <string name="email">Email</string>
+    <string name="safe_driver">Safe Driver</string>
+    <string name="remember_me">Remember Me??</string>
+    <string name="select_profile_picture">Select profile picture</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="your_nid_number">Your NID number</string>
+    <string name="your_license_number">Your license number</string>
+    <string name="address">Address</string>
+    <string name="birth_date_dd_mm_yyyy">Birth Date (DD-MM-YYYY)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="select_your_gender">Select Your Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="vehicle_owner_name">vehicle owner Name</string>
+    <string name="owner_address">Owner Address</string>
+    <string name="owner_phone_number">Owner Phone Number</string>
+    <string name="vehicle_number_plate">vehicle number plate</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already Have an account??</string>
+    <string name="login_now">Login now</string>
+
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notify</string>
+    <string name="likes">Favs</string>
+    <string name="happy">Happy</string>
+    <string name="room">Room</string>
+    <string name="restaurant">Food</string>
+    <string name="shop">Shop</string>
+    <string name="photos">Pics</string>
+    <string name="call">Call</string>
+    <string name="todo">TODO</string>
+
+    <string name="lore">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
+
+
+</resources>

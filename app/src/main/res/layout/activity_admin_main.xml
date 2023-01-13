@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminMainActivity"
+
+    >
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_above="@+id/bottom_navigation_view1"
+        android:id="@+id/view_pager1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:verticalScrollbarPosition="defaultPosition"
+        android:id="@+id/bottom_navigation_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bag_right"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:padding="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+
+            android:id="@+id/l_item_home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            app:bt_colorActive="@color/blue_grey_active"
+            app:bt_colorInactive="@color/white"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/transition_background_drawable_home"
+            app:bt_title="@string/home" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_search1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            app:bt_badgeBackgroundColor="@color/green_active"
+            app:bt_colorActive="@color/blue_active"
+            app:bt_colorInactive="@color/white"
+            app:bt_icon="@drawable/ic_search"
+            app:bt_shape="@drawable/transition_background_drawable_search"
+            app:bt_title="@string/search" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_profile_list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            app:bt_badgeBackgroundColor="@color/purple_active"
+            app:bt_colorActive="@color/green_active"
+            app:bt_colorInactive="@color/white"
+            app:bt_icon="@drawable/ic_notifications_black_24dp"
+            app:bt_shape="@drawable/transition_background_drawable_like"
+            app:bt_title="@string/notification" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_profile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/red_active"
+            app:bt_colorInactive="@color/white"
+            app:bt_icon="@drawable/ic_person"
+            app:bt_shape="@drawable/transition_background_drawable_person"
+            app:bt_title="@string/profile" />
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+
+
+</RelativeLayout>

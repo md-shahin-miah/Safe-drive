@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_bg_light"
+    tools:context=".Reporter.ReporterMainActivity">
+
+    <FrameLayout
+        android:layout_above="@+id/space"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.irfaan008.irbottomnavigation.SpaceNavigationView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        app:active_item_color="@color/white"
+        app:centre_button_color="@color/orange_bg_light"
+        app:inactive_item_color="@color/grey_active"
+        app:space_background_color="@color/orange_active"
+        app:centre_button_icon="@drawable/qrcode"
+        app:space_item_icon_size="35dp"
+        app:space_item_icon_only_size="35dp" />
+
+</RelativeLayout>
+
+

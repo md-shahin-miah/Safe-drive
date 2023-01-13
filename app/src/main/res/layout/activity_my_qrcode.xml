@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Driver.MyQRcodeActivity">
+
+
+    <ImageView
+        android:id="@+id/qrcodeimg"
+        android:src="@drawable/proico"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </ImageView>
+
+    <Button
+        android:id="@+id/qrcodedownload"
+        android:layout_marginTop="30dp"
+        android:text="Download"
+        android:background="@drawable/bag"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>
